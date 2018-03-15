@@ -1,0 +1,88 @@
+body {
+  background: #f8f8f8;
+}
+body .htit {
+  width: 100%;
+  height: 140px;
+  margin: 10px auto 0;
+  background: #fff;
+}
+body .htit .htit_center {
+  width: 1200px;
+  margin: 0 auto;
+}
+body .htit .htit_center .htit_left {
+  float: left;
+  margin-top: 10px;
+  height: 120px;
+}
+body .htit .htit_center .htit_left .htit_name {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 140px;
+  color: #121212;
+  display: inline-block;
+}
+body .htit .htit_center .htit_left > span {
+  font-size: 14px;
+  margin-left: 10px;
+  color: #929292;
+}
+body .htit .htit_center .htit_left > span > i {
+  font-style: normal;
+  color: #121212;
+  font-size: 14px;
+}
+body .htit .htit_center .htit_left > span .htit_red {
+  color: #e84b47;
+}
+body .htit .htit_center .htit_right {
+  float: right;
+  height: 120px;
+  margin-top: 15px;
+}
+body .htit .htit_center .htit_right .order_list > li {
+  display: inline-block;
+  line-height: 22px;
+  width: 100px;
+  text-align: center;
+  margin-top: 52px;
+  font-size: 14px;
+}
+body .htit .htit_center .htit_right .order_list > li > i {
+  font-style: normal;
+  display: block;
+  color: #e84b47;
+}
+body .htit .htit_center .htit_right .order_list > li > em {
+  font-style: normal;
+  position: relative;
+  bottom: 12px;
+  left: 20px;
+  color: #e5e5e5;
+}
+body .seller_nav {
+  width: 100%;
+  height: 40px;
+  background: #323434;
+}
+body .seller_nav > ul {
+  width: 1200px;
+  margin: 0 auto;
+}
+body .seller_nav > ul > li {
+  cursor: pointer;
+  display: inline-block;
+  width: 140px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+}
+body .seller_nav > ul > li > a {
+  color: #fff;
+  text-align: center;
+}
+body .seller_nav > ul > li:hover {
+  background: #424242;
+}
