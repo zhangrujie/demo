@@ -1,7 +1,7 @@
 body {
   width: 100%;
   height: 100%;
-  background: #fbf8f8;
+  overflow-x: hidden;
 }
 body .header {
   width: 100%;
@@ -65,7 +65,7 @@ body .header .header_container .header_nav .nav_city > span {
   color: #000;
   vertical-align: middle;
 }
-body .header .header_container .header_nav .nav_city > span:hover {
+body .header .header_container .header_nav .nav_city .change_city:hover {
   color: #e94840;
 }
 body .header .header_container .header_nav .nav_login {
